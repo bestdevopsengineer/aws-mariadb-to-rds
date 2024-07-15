@@ -40,6 +40,7 @@ SELECT * FROM table1;
 mysqldump -u root -p ec2db > ec2db.sql
 mysql -h <replace-rds-end-point-here> -P 3306 -u rdsuser -p rdsdb < ec2db.sql
 mysql -h <replace-rds-end-point-here> -P 3306 -u rdsuser -p
+SHOW Databases;
 USE rdsdb
 SELECT * FROM table1;
 ```
